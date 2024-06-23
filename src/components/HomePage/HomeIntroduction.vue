@@ -63,7 +63,7 @@
           <div class="square1">
             <div class="span1">
               <img class="pic1"
-                   src="/image/view/pattern_round/icon3.png"
+                   src="/image/view/pattern_round/icon1.png"
                    width="70" />
               <router-link to="course">
                 <div class="cha1">剪纸的教程</div>
@@ -110,9 +110,17 @@
         </transition>
         <transition name="animate__animated animate__bounce animate__slow"
                     appear
-                    enter-active-class="animate__fadeInBottomRight">
-          <div class="square3">
-            <span class="span1"> </span>
+                    enter-active-class="animate__fadeInBottomLeft">
+          <div class="square2">
+            <span class="span1">
+              <img class="pic1"
+                   src="/image/view/pattern_round/icon4.png"
+                   width="70" />
+              <router-link to="/column">
+                <div class="cha2">剪纸艺术家专栏</div>
+              </router-link>
+              <div class="eng2">JIANZHIDE<br />ZHUANLAN</div>
+            </span>
           </div>
         </transition>
       </div>

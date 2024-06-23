@@ -60,12 +60,11 @@
 </div>
 </div>
       <div class="abstract">
-        <h2>图片｜视频</h2>
+        <h2>图片</h2>
         <div class="intro">
-          <img src="http://117.50.179.215:8070/images/2022/12/22/jMeh.png" alt="jMeh.png" border="0" /><br/>
-          <img src="http://117.50.179.215:8070/images/2022/12/22/jW5E.png" alt="jW5E.png" border="0" /><br/>
-          <img src="http://117.50.179.215:8070/images/2022/12/22/jbgw.png" alt="jbgw.png" border="0" /><br/>
-          
+          <img src="/image/artist/fu1.jpg" alt="fu1.jpg" width="600" style="margin: 0 auto;" />
+          <br />
+          <img src="/image/artist/fu2.jpeg" alt="fu2.jpeg" width="600" style="margin: 0 auto;" />
              </div>
       </div>
 

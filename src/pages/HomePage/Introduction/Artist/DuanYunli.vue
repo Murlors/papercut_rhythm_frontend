@@ -27,12 +27,12 @@
             </div>
             <div class="abstract">
               <h2>图片｜视频</h2>
-              <div class="intro">
-                <img src="http://117.50.179.215:8070/images/2022/12/22/jeWG.png" alt="jeWG.png" border="0" />
+              <div class="intro" style="text-align: center">
+                <img src="/image/artist/duan1.png" alt="duan1.png" width="600" style="position: absolute" />
                 <br />
-                <img src="http://117.50.179.215:8070/images/2022/12/22/j4pV.png" alt="j4pV.png" border="0" />
+                <img src="/image/artist/duan2.jpg" alt="duan2.jpg" width="600" style="text-align: center" />
                 <br />
-                <img src="http://117.50.179.215:8070/images/2022/12/22/jKqT.png" alt="jKqT.png" border="0" />
+                <video src="/image/artist/duan3.mp4" alt="duan3.mp4" width="600" controls></video>
               </div>
             </div>
 

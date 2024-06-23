@@ -32,10 +32,11 @@
 让剪刀在手中起舞，让树叶因雕刻而绽放生命的魅力，顾朋泉，用剪刀剪出了自己的梦想，用剪刀剪出了自己精彩的人生 </div>
       </div>
       <div class="abstract">
-        <h2>图片｜视频</h2>
+        <h2>作品图片</h2>
         <div class="intro">
-          <img src="http://117.50.179.215:8070/images/2022/12/22/jPWu.jpg" alt="jPWu.jpg" border="0" /><br/>
-          <img src="http://117.50.179.215:8070/images/2022/12/22/jupx.jpg" alt="jupx.jpg" border="0" />
+          <img src="/image/artist/gu1.jpg" alt="gu1.jpg" width="600" style="margin: 0 auto;" />
+          <br />
+          <img src="/image/artist/gu2.jpg" alt="gu2.jpg" width="600" style="margin: 0 auto;" />
              </div>
       </div>
 

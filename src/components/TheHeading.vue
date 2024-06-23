@@ -3,7 +3,7 @@
   <nav>
     <div class="logo"><img src="/image/homeview/pattern/logo.png"></div>
     <div>
-      <p style="margin-left:30px;"> 纸间万象————中华剪纸文化艺术展览馆</p>
+      <p style="margin-left:30px;"> 纸韵剪影————中华剪纸文化艺术展览馆</p>
     </div>
     <router-link to="/"
                  class="el-menu-item"

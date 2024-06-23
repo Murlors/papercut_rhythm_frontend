@@ -14,7 +14,7 @@
       <el-col :span="24"
               style="text-align: center">
         <div style="line-height: 28px; padding: 0 5px 5px 5px;">
-          欢迎来到纸间万象的论坛，淡泊明志，宁静致远。珍惜原创，矢志不渝。
+          欢迎来到纸韵剪影的论坛，淡泊明志，宁静致远。珍惜原创，矢志不渝。
         </div>
       </el-col>
       <el-divider style="font-size: 12px;">

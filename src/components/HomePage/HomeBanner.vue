@@ -47,7 +47,7 @@
                 appear
                 enter-active-class="animate__fadeIn">
       <div class="character">
-        <div class="ch1">纸间万象</div>
+        <div class="ch1">纸韵剪影</div>
         <div class="ch2">——中华剪纸文化艺术展览馆</div>
       </div>
     </transition>

@@ -44,11 +44,11 @@
 粉丸的作品具有大胆强烈的个人风格，总是有些脑洞大开的想法能让观者惊叹，这几年，引发了国内外众多美术馆、博物馆的关注，更是登上了TEDx的演讲舞台。从2014年开始，她的作品陆续在瑞士日内瓦、上海、杭州、北京、广州、深圳、青岛等多地进行展览，获得惠普、方所、K11商场等一众商业品牌的邀请合作。</div>
       </div>
       <div class="abstract">
-        <h2>图片｜视频</h2>
+        <h2>图片</h2>
         <div class="intro">
-          <img src="http://117.50.179.215:8070/images/2022/12/22/jYP5.jpg" alt="jYP5.jpg" border="0" /><br/>
-          <img src="http://117.50.179.215:8070/images/2022/12/22/jAFR.jpg" alt="jAFR.jpg" border="0" /><br/>
-          <img src="http://117.50.179.215:8070/images/2022/12/22/jDmg.jpg" alt="jDmg.jpg" border="0" />
+          <img src="/image/artist/chen1.jpg" alt="chen1.jng" width="600" style="margin: 0 auto;" />
+          <br />
+          <img src="/image/artist/chen2.png" alt="chen2.png" width="600" style="margin: 0 auto;" />
              </div>
       </div>
 

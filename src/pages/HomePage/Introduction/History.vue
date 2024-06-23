@@ -4,7 +4,7 @@
     <div class="building">
 
       <!--概述E-->
-      <div v-if="type == 'E'">
+      <div v-if="type == 'E'" >
         <!--大标题-->
         <div class="headline">
           <h1>剪纸发展历史</h1>
@@ -21,10 +21,10 @@
             实际上，剪纸的历史要比这些更久远，从陶瓷瓦罐上的花纹；铁器、铜器的镂空等都可以看出剪纸的雏形。唐代剪纸已处于大发展时期，唐代有“剪纸为小幡”的记载；宋代是我国造纸的成熟时期，纸张种类繁多，为剪纸的普及提供了条件，促进了剪纸艺术的发展。明代剪纸已经达到了很高的艺术水平；清代是民间剪纸的鼎盛时期。
           </p>
 
-
-          <div class="pic">
-            <img src="http://117.50.179.215:8070/images/2022/12/22/jN0S.png" alt="jN0S.png" border="0" style="margin: 0 auto;" width="800"/>
-          </div>
+<!--          <div class="pic" style="display: flex;justify-content: center;">-->
+<!--            <img src="/image/history.png" alt="history.png" border="0" style="margin: 0 auto;" width="250"/>-->
+<!--&lt;!&ndash;            <img src="/image/history1.png" alt="history1.png" border="0" style="margin: 0 auto;" width="250"/>&ndash;&gt;-->
+<!--          </div>-->
 
         </div>
       </div>
@@ -48,7 +48,7 @@
             关于剪纸手工艺术的历史，即真正意义上的剪纸，应该从纸的出现开始。汉代纸的发明促使了剪纸的出现、发展与普及。纸张是一种很容易霉烂的材料，我国东南部地区气候湿润，再加上当地每年五六月的梅雨天，时间一长纸张制品就容易烂，而民间剪纸又是一种大众化的东西，人们不会像珍宝一样保存起来，搞坏了自己还可以再剪。
             而我国西北地区天干少兩，气候干燥，纸张也不易零烂，这也可能是能在阿斯塔那古基群中发现北朝剪纸的重要原因之-。
           </p>
-          <img src="http://117.50.179.215:8070/images/2022/12/22/p55z.png" alt="p55z.png" border="0" style="margin: 0 auto;" width="520"/>
+<!--          <img src="http://117.50.179.215:8070/images/2022/12/22/p55z.png" alt="p55z.png" border="0" style="margin: 0 auto;" width="520"/>-->
         </div>
       </div>
 
@@ -69,7 +69,7 @@
             皮影戏的人物造型；
             蓝印花布工艺制作的镂花制版是用油纸板雕镂成纹，刮浆印花的花版纹样就是采用剪纸的技法，有阴、阳刻之分，长线要割断，以点分虚实。
           </p>
-          <img src="http://117.50.179.215:8070/images/2022/12/22/p8r7.png" alt="p8r7.png" border="0" style="margin: 0 auto;" width="750"/>
+<!--          <img src="/image/history.png" alt="history.png" border="0" style="margin: 0 auto;" width="750"/>-->
  
         </div>
       </div>
@@ -89,7 +89,7 @@
             民间剪纸来源于生活，出自劳动人民之手，常采用寓意象征和变形夸张手法，体现人民对生活的体验和感受。由于各地区各民族的文化不同，我国民间剪纸流派纷呈，风格各异，均有其独到的地方特色。北方剪纸简洁大方、粗犷奔放，南方剪纸精致、细腻、排列对称有序。具体而言，河北剪纸善于点色，山东山西剪纸淳朴稳重，广东剪纸善用金纸衬托，江苏剪纸剪工精细，福建剪纸形态自然，陕西、浙江的剪纸则是擅长边饰图案。
             地域性的特征体现在人物造型、刀法处理以及感情表达上，但是基本内涵却是一致的，就是质朴、纯真、内涵丰富、乡土气息浓郁。
           </p>
-          <img src="http://117.50.179.215:8070/images/2022/12/22/pHnb.png" alt="pHnb.png" border="0" style="margin: 0 auto;" width="800"/>
+<!--          <img src="http://117.50.179.215:8070/images/2022/12/22/pHnb.png" alt="pHnb.png" border="0" style="margin: 0 auto;" width="800"/>-->
         </div>
       </div>
 
@@ -126,7 +126,7 @@
           <p style="text-indent:2em">
             佛山剪纸历史悠久，源于宋代，盛于明清时期。从明代起佛山剪纸已有专门行业大量生产，产品销往省内及中南、西南各省，并远销南洋各国。福建山区的南平、华安等地以刻画以山禽家畜的作品较多，表现较为粗壮有力、淳厚朴实；
             沿海的闽南、漳浦一些带则屡见水产动物入画，风格细致造型生动；莆田、仙游一带以礼品花为主，倾向于华丽纤巧的意味。</p>
-            <img src="http://117.50.179.215:8070/images/2022/12/22/p3Ps.jpg" alt="p3Ps.jpg" border="0" style="margin: 0 auto;" width="250"/>
+<!--            <img src="http://117.50.179.215:8070/images/2022/12/22/p3Ps.jpg" alt="p3Ps.jpg" border="0" style="margin: 0 auto;" width="250"/>-->
         </div>
         
       </div>
@@ -143,7 +143,7 @@
             陕西从南到北，特别是黄土高原，八百里秦川，到处都能见到红红绿绿的剪纸。造型古拙，风格粗犷，寓意有趣、形式多样，技艺精湛，在陕西，在全国的民间美术中占有很重要的位置，专家们称之为“活化石”，因为它较完整地传承了中华民族古老的造型纹样。
             如鱼身人面，狮身人首，以及与周文化相似的“抓娃娃”。与汉画像所相似的“牛耕图”等。传承了中华民族阴阳哲学思想与生殖繁衍崇拜的观念。如陕北剪纸中的“鹰踏兔”、“蛇盘兔”、“鹭鸶衔鱼”、“鱼戏莲”、“蛙、鹿、鱼、鸟”等。
           </p>
-          <img src="http://117.50.179.215:8070/images/2022/12/22/pjLp.jpg" alt="pjLp.jpg" border="0" style="margin: 0 auto;" width="250"/>
+<!--          <img src="http://117.50.179.215:8070/images/2022/12/22/pjLp.jpg" alt="pjLp.jpg" border="0" style="margin: 0 auto;" width="250"/>-->
         </div>
 
       </div>
@@ -160,10 +160,10 @@
     <div class="fanhui" v-if='(type === "F" || type === "G")'><button @click="changed()" class="return">返回</button>
     </div>
 
-    <div class="bottomline">
-      <img src="http://117.50.179.215:8070/images/2022/11/04/357c7d0f55a0f6b5be3db6a5c49c9c89.png"
-        alt="357c7d0f55a0f6b5be3db6a5c49c9c89.png" width="2000" height="20" />
-    </div>
+<!--    <div class="bottomline">-->
+<!--      <img src="http://117.50.179.215:8070/images/2022/11/04/357c7d0f55a0f6b5be3db6a5c49c9c89.png"-->
+<!--        alt="357c7d0f55a0f6b5be3db6a5c49c9c89.png" width="2000" height="20" />-->
+<!--    </div>-->
 
   </div>
 

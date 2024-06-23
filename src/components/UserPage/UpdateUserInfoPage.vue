@@ -97,29 +97,15 @@ export default {
     },
     // 上传头像
     uploadAvatar(e) {
-      let file = e.file
-      let data = new FormData()
-      let url = '/myimage/api/1/upload'
-      data.append('key', '4fb2110371629a961969a7ea99e3cfba')
-      data.append('format', 'json')
-      data.append('source', file)
-      this.$http({
-        url: url,
-        method: 'post',
-        headers: {
-          'Content-Type': 'multipart/form-data',
-        },
-        data: data,
-      }).then((res) => {
+      this.$uploadImg(e.file).then((res) => {
         ElMessage({
           message: '上传成功',
           type: 'success',
         })
-        let index = res.data.image.url.indexOf('images')
-        let img = res.data.image.url.slice(index)
-        this.user_avatar = this.$global.picBed + img
+        this.user_avatar = res
+        console.log(this.user_avatar)
       })
-    },
+    }
   },
 }
 </script>

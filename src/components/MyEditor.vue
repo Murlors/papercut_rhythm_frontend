@@ -3,21 +3,10 @@
     <div>
     </div>
     <div style="border: 1px solid #ccc; margin-top: 10px">
-      <Toolbar :editor="editorRef"
-               :defaultConfig="toolbarConfig"
-               :mode="mode"
-               style="border-bottom: 1px solid #ccc" />
-      <Editor :defaultConfig="editorConfig"
-              :mode="mode"
-              v-model="valueHtml"
-              style="height: 400px; overflow-y: hidden"
-              @onCreated="handleCreated"
-              @onChange="handleChange"
-              @onDestroyed="handleDestroyed"
-              @onFocus="handleFocus"
-              @onBlur="handleBlur"
-              @customAlert="customAlert"
-              @customPaste="customPaste" />
+      <Toolbar :editor="editorRef" :defaultConfig="toolbarConfig" :mode="mode" style="border-bottom: 1px solid #ccc" />
+      <Editor :defaultConfig="editorConfig" :mode="mode" v-model="valueHtml" style="height: 400px; overflow-y: hidden"
+        @onCreated="handleCreated" @onChange="handleChange" @onDestroyed="handleDestroyed" @onFocus="handleFocus"
+        @onBlur="handleBlur" @customAlert="customAlert" @customPaste="customPaste" />
     </div>
     <!-- <div style="margin-top: 10px">
       <textarea v-model="valueHtml"
@@ -26,7 +15,7 @@
     </div> -->
   </div>
 </template>
-    
+
 <script>
 import '@wangeditor/editor/dist/css/style.css'
 import { onBeforeUnmount, ref, shallowRef, onMounted } from 'vue'
@@ -83,26 +72,13 @@ export default {
       onError(file, err, res) {
         // JS 语法
       },
+
       customUpload(file, insertFn) {
-        let data = new FormData()
-        let url = '/myimage/api/1/upload'
-        data.append('key', '4fb2110371629a961969a7ea99e3cfba')
-        data.append('format', 'json')
-        data.append('source', file)
-        axios({
-          url: url,
-          method: 'post',
-          headers: {
-            'Content-Type': 'multipart/form-data',
-          },
-          data: data,
-        }).then((res) => {
+        this.$uploadImg(file).then((res) => {
           console.log(res)
-        let index = (res.data.image.url).indexOf('images')
-        let img = (res.data.image.url).slice(index)
-          let url = 'http://117.50.179.215:8070/' + img
+          let url = res
           let alt = '加载成功'
-          let href = 'http://117.50.179.215:8070/' + img
+          let href = res
           insertFn(url, alt, href)
         })
       },
@@ -118,32 +94,32 @@ export default {
 
     // 编辑器回调函数
     const handleCreated = (editor) => {
-    //   console.log('created', editor)
+      //   console.log('created', editor)
       editorRef.value = editor // 记录 editor 实例，重要！
     }
     const handleChange = (editor) => {
-    //   console.log('change:', editor.getHtml())
+      //   console.log('change:', editor.getHtml())
     }
     const handleDestroyed = (editor) => {
-    //   console.log('destroyed', editor)
+      //   console.log('destroyed', editor)
     }
     const handleFocus = (editor) => {
-    //   console.log('focus', editor)
+      //   console.log('focus', editor)
     }
     const handleBlur = (editor) => {
-    //   console.log('blur', editor)
+      //   console.log('blur', editor)
     }
     const customAlert = (info, type) => {
-    //   alert(`【自定义提示】${type} - ${info}`)
+      //   alert(`【自定义提示】${type} - ${info}`)
     }
     const customPaste = (editor, event, callback) => {
-    //   console.log('ClipboardEvent 粘贴事件对象', event)
+      //   console.log('ClipboardEvent 粘贴事件对象', event)
 
       // 自定义插入内容
-    //   editor.insertText('xxx')
+      //   editor.insertText('xxx')
 
       // 返回值（注意，vue 事件的返回值，不能用 return）
-    //   callback(false) // 返回 false ，阻止默认粘贴行为
+      //   callback(false) // 返回 false ，阻止默认粘贴行为
       callback(true) // 返回 true ，继续默认的粘贴行为
     }
 
@@ -171,7 +147,7 @@ export default {
       toolbarConfig,
       editorConfig,
       handleCreated,
-      handleChange:() => {
+      handleChange: () => {
         console.log('change:', editorRef.value.getHtml())
       },
       handleDestroyed,
@@ -189,6 +165,4 @@ export default {
   },
 }
 </script>
-<style scoped>
-</style>
-    
+<style scoped></style>

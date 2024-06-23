@@ -1,4 +1,4 @@
-export default {
+const Global = {
 	data: {
 		userId: -1,
 		userName: '',
@@ -7,6 +7,7 @@ export default {
 		userAvater: '/image/homeview/icon/login.png',
 		userIntroduction: '',
 		rank: 0,
-        picBed:'http://117.50.179.215:8070/',
 	},
 }
+
+export default Global;

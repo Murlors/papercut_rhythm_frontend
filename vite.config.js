@@ -25,11 +25,10 @@ export default defineConfig({
 				changeOrigin: true,
 				rewrite: (path) => path.replace(/^\/api/, ''),
 			},
-			'/myimage': {
-				target: 'http://localhost:8080',
-				// target: 'http://117.50.179.215:8070', //实际请求地址
+			'/picbed': {
+				target: 'https://smms.app/api/v2',
 				changeOrigin: true,
-				rewrite: (path) => path.replace(/^\/myimage/, ''),
+				rewrite: (path) => path.replace(/^\/picbed/, ''),
 			}
 		},
 	},

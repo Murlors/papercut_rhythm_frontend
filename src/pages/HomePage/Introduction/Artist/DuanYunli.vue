@@ -28,9 +28,9 @@
             <div class="abstract">
               <h2>图片｜视频</h2>
               <div class="intro" style="text-align: center">
-                <img src="/image/artist/duan1.png" alt="duan1.png" width="600" style="position: absolute" />
+                <img src="/image/artist/duan1.png" alt="duan1.png" width="600" style="margin: 0 auto;" />
                 <br />
-                <img src="/image/artist/duan2.jpg" alt="duan2.jpg" width="600" style="text-align: center" />
+                <img src="/image/artist/duan2.jpg" alt="duan2.jpg" width="600" style="margin: 0 auto;" />
                 <br />
                 <video src="/image/artist/duan3.mp4" alt="duan3.mp4" width="600" controls></video>
               </div>

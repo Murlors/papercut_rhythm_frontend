@@ -16,12 +16,11 @@ export default defineConfig({
 		}),
 	],
 	server: {
-		open: true, //启动项目自动弹出浏览器
-		port: 5173, //启动端口
+		open: true,
+		port: 5173,
 		proxy: {
 			'/api': {
 				target: 'http://localhost:8080',
-				// target: 'http://117.50.179.215:9999', //实际请求地址
 				changeOrigin: true,
 				rewrite: (path) => path.replace(/^\/api/, ''),
 			},
